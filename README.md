@@ -127,7 +127,7 @@ fisher install crmne/good-git-abbr.fish
 | `grf` | `git revert` |
 | `grp!` | `git reset --hard HEAD` |
 
-## Sample workflow
+## Sample workflows
 
 ```fish
 cd my-repo
@@ -153,6 +153,14 @@ gP!
 # rebase on latest default branch
 gp
 gr
+```
+
+```fish
+# dogfooding this plugin repo
+gaa
+gss
+gcam "Use abbreviations in sample workflows"
+gP
 ```
 
 ## omafish compatibility
