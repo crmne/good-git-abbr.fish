@@ -146,7 +146,7 @@ gcb fix-login-bug              # git checkout -b fix-login-bug
 
 ## omafish compatibility
 
-When both plugins are installed, `good-git-abbr` removes legacy omafish git wrapper functions (`g`, `gcm`, `gcam`, `gcad`) at load time so abbreviations win predictably.
+When both plugins are installed, `good-git-abbr` removes legacy [`omafish`](https://github.com/crmne/omafish) git wrapper functions (`g`, `gcm`, `gcam`, `gcad`) at load time so abbreviations win predictably.
 
 To keep those wrappers, set:
 
