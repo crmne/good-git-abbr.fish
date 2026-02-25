@@ -18,6 +18,23 @@ fisher install crmne/good-git-abbr.fish
 | --- | --- |
 | `gabbr` | show all `good-git-abbr` abbreviations |
 
+### Sample workflows
+
+```fish
+# fast commit and push
+gaa                            # git add --all
+gss                            # git status -s
+gcam "Improve sample workflow docs"  # git commit -a -m "Improve sample workflow docs"
+gP                             # git push
+```
+
+```fish
+# sync, branch, and start work
+gcom                           # git checkout (__good_git_default_branch)
+gp                             # git pull
+gcb fix-login-bug              # git checkout -b fix-login-bug
+```
+
 ### Core
 
 | Abbreviation | Command |
@@ -126,42 +143,6 @@ fisher install crmne/good-git-abbr.fish
 | `gm` | `git merge` |
 | `grf` | `git revert` |
 | `grp!` | `git reset --hard HEAD` |
-
-## Sample workflows
-
-```fish
-cd my-repo
-gst
-
-# throw away everything and return pristine
-gclean!!
-gcom
-gp
-gcb fix-login-bug
-
-# ... edit files ...
-
-gaa
-gc
-gP
-
-# ... edit more files ...
-
-gcan!
-gP!
-
-# rebase on latest default branch
-gp
-gr
-```
-
-```fish
-# dogfooding this plugin repo
-gaa
-gss
-gcam "Use abbreviations in sample workflows"
-gP
-```
 
 ## omafish compatibility
 
