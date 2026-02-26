@@ -38,6 +38,7 @@ __good_git_abbr_sync gcam "git commit -a -m"
 # Diff and log
 __good_git_abbr_sync gd "git diff"
 __good_git_abbr_sync gdc "git diff --cached"
+__good_git_abbr_sync gl "git log"
 __good_git_abbr_sync gls "git log --stat"
 __good_git_abbr_sync glg "git log --oneline --decorate --color --graph"
 
