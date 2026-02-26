@@ -89,6 +89,7 @@ gcb fix-login-bug              # git checkout -b fix-login-bug
 | --- | --- | --- |
 | `gd` | `git diff` | Review unstaged changes. |
 | `gdc` | `git diff --cached` | Review staged changes before commit. |
+| `gl` | `git log` | Browse commit history with full details. |
 | `gls` | `git log --stat` | See commit history with file-change stats. |
 | `glg` | `git log --oneline --decorate --color --graph` | Compact visual graph of branch history. |
 
